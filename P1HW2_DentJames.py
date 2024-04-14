@@ -1,7 +1,8 @@
 # James Dent
-# April 12, 2024
+# April 14, 2024
 # P1HW2
-# Create a program that does some basic math on numbers that are entered
+# Create a program that does some simple math on numbers that are entered
+
 print()
 print("This program calculates and displays travel expenses")
 # user is asked to enter initial budget
@@ -19,12 +20,12 @@ expense = gas + accommodations + food
 balance = budget - expense
 
 
-#print('----------------Travel Expenses----------------')
-print(1000*'-' + 'Travel Expenses' + 1000*'-')
-print("Location: ", travel_destination)
+
+#print('------------Travel Expenses------------')
 print("Initial Budget: ", budget)
+print("Location: ", travel_destination)
 print()
-print("Fuel: ",gas)
+print("Petro: ",gas)
 print("Accommodations: ", accommodations)
 print("Food: ", food)
 print()
